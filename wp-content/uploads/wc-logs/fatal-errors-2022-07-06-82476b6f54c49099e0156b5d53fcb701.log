@@ -1,0 +1,2 @@
+2022-07-06T08:45:58+00:00 CRITICAL Out of memory (allocated 46137344) (tried to allocate 65536 bytes) in C:\xampp\htdocs\elfakhama\wp-content\plugins\woocommerce\packages\action-scheduler\classes\schema\ActionScheduler_StoreSchema.php on line 32
+

@@ -1,0 +1,214 @@
+2022-07-07T04:21:31+00:00 CRITICAL Uncaught Error: Class "Elementor\Plugin" not found in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php:307
+Stack trace:
+#0 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Bootstrap->save_global_values_trashed_post(88)
+#1 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(3117): do_action('trashed_post', 88)
+#4 C:\xampp\htdocs\elfakhama\wp-includes\theme.php(3567): WP_Customize_Manager->trash_changeset_post(Object(WP_Post))
+#5 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): _wp_customize_publish_changeset('publish', 'new', Object(WP_Post))
+#6 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\elfakhama\wp-includes\post.php(5303): do_action('transition_post...', 'publish', 'new', Object(WP_Post))
+#9 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4563): wp_transition_post_status('publish', 'new', Object(WP_Post))
+#10 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2975): wp_insert_post(Array, true)
+#11 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2526): WP_Customize_Manager->save_changeset_post(Array)
+#12 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#13 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\elfakhama\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#16 {main}
+  thrown in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php on line 307
+
+2022-07-07T11:36:56+00:00 CRITICAL Uncaught Error: Class "Elementor\Plugin" not found in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php:307
+Stack trace:
+#0 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Bootstrap->save_global_values_trashed_post(93)
+#1 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(3117): do_action('trashed_post', 93)
+#4 C:\xampp\htdocs\elfakhama\wp-includes\theme.php(3567): WP_Customize_Manager->trash_changeset_post(Object(WP_Post))
+#5 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): _wp_customize_publish_changeset('publish', 'new', Object(WP_Post))
+#6 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\elfakhama\wp-includes\post.php(5303): do_action('transition_post...', 'publish', 'new', Object(WP_Post))
+#9 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4563): wp_transition_post_status('publish', 'new', Object(WP_Post))
+#10 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2975): wp_insert_post(Array, true)
+#11 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2526): WP_Customize_Manager->save_changeset_post(Array)
+#12 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#13 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\elfakhama\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#16 {main}
+  thrown in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php on line 307
+
+2022-07-07T11:51:24+00:00 CRITICAL Uncaught Error: Class "Elementor\Plugin" not found in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php:307
+Stack trace:
+#0 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Bootstrap->save_global_values_trashed_post(95)
+#1 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(3117): do_action('trashed_post', 95)
+#4 C:\xampp\htdocs\elfakhama\wp-includes\theme.php(3567): WP_Customize_Manager->trash_changeset_post(Object(WP_Post))
+#5 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): _wp_customize_publish_changeset('publish', 'auto-draft', Object(WP_Post))
+#6 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\elfakhama\wp-includes\post.php(5303): do_action('transition_post...', 'publish', 'auto-draft', Object(WP_Post))
+#9 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4563): wp_transition_post_status('publish', 'auto-draft', Object(WP_Post))
+#10 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4775): wp_insert_post(Array, true, true)
+#11 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2964): wp_update_post(Array, true)
+#12 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2526): WP_Customize_Manager->save_changeset_post(Array)
+#13 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#14 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#15 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\elfakhama\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#17 {main}
+  thrown in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php on line 307
+
+2022-07-07T11:58:06+00:00 CRITICAL Uncaught Error: Class "Elementor\Plugin" not found in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php:307
+Stack trace:
+#0 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Bootstrap->save_global_values_trashed_post(96)
+#1 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(3117): do_action('trashed_post', 96)
+#4 C:\xampp\htdocs\elfakhama\wp-includes\theme.php(3567): WP_Customize_Manager->trash_changeset_post(Object(WP_Post))
+#5 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): _wp_customize_publish_changeset('publish', 'auto-draft', Object(WP_Post))
+#6 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\elfakhama\wp-includes\post.php(5303): do_action('transition_post...', 'publish', 'auto-draft', Object(WP_Post))
+#9 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4563): wp_transition_post_status('publish', 'auto-draft', Object(WP_Post))
+#10 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4775): wp_insert_post(Array, true, true)
+#11 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2964): wp_update_post(Array, true)
+#12 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2526): WP_Customize_Manager->save_changeset_post(Array)
+#13 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#14 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#15 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\elfakhama\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#17 {main}
+  thrown in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php on line 307
+
+2022-07-07T12:00:15+00:00 CRITICAL Uncaught Error: Class "Elementor\Plugin" not found in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php:307
+Stack trace:
+#0 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Bootstrap->save_global_values_trashed_post(97)
+#1 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(3117): do_action('trashed_post', 97)
+#4 C:\xampp\htdocs\elfakhama\wp-includes\theme.php(3567): WP_Customize_Manager->trash_changeset_post(Object(WP_Post))
+#5 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): _wp_customize_publish_changeset('publish', 'auto-draft', Object(WP_Post))
+#6 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\elfakhama\wp-includes\post.php(5303): do_action('transition_post...', 'publish', 'auto-draft', Object(WP_Post))
+#9 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4563): wp_transition_post_status('publish', 'auto-draft', Object(WP_Post))
+#10 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4775): wp_insert_post(Array, true, true)
+#11 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2964): wp_update_post(Array, true)
+#12 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2526): WP_Customize_Manager->save_changeset_post(Array)
+#13 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#14 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#15 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\elfakhama\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#17 {main}
+  thrown in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php on line 307
+
+2022-07-07T12:07:00+00:00 CRITICAL Uncaught Error: Class "Elementor\Plugin" not found in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php:307
+Stack trace:
+#0 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Bootstrap->save_global_values_trashed_post(99)
+#1 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(3117): do_action('trashed_post', 99)
+#4 C:\xampp\htdocs\elfakhama\wp-includes\theme.php(3567): WP_Customize_Manager->trash_changeset_post(Object(WP_Post))
+#5 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): _wp_customize_publish_changeset('publish', 'auto-draft', Object(WP_Post))
+#6 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\elfakhama\wp-includes\post.php(5303): do_action('transition_post...', 'publish', 'auto-draft', Object(WP_Post))
+#9 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4563): wp_transition_post_status('publish', 'auto-draft', Object(WP_Post))
+#10 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4775): wp_insert_post(Array, true, true)
+#11 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2964): wp_update_post(Array, true)
+#12 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2526): WP_Customize_Manager->save_changeset_post(Array)
+#13 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#14 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#15 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\elfakhama\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#17 {main}
+  thrown in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php on line 307
+
+2022-07-07T12:15:21+00:00 CRITICAL Uncaught Error: Class "Elementor\Plugin" not found in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php:307
+Stack trace:
+#0 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Bootstrap->save_global_values_trashed_post(100)
+#1 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(3117): do_action('trashed_post', 100)
+#4 C:\xampp\htdocs\elfakhama\wp-includes\theme.php(3567): WP_Customize_Manager->trash_changeset_post(Object(WP_Post))
+#5 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): _wp_customize_publish_changeset('publish', 'new', Object(WP_Post))
+#6 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\elfakhama\wp-includes\post.php(5303): do_action('transition_post...', 'publish', 'new', Object(WP_Post))
+#9 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4563): wp_transition_post_status('publish', 'new', Object(WP_Post))
+#10 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2975): wp_insert_post(Array, true)
+#11 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2526): WP_Customize_Manager->save_changeset_post(Array)
+#12 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#13 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\elfakhama\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#16 {main}
+  thrown in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php on line 307
+
+2022-07-07T14:34:14+00:00 CRITICAL Uncaught Error: Class "Elementor\Plugin" not found in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php:307
+Stack trace:
+#0 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Bootstrap->save_global_values_trashed_post(104)
+#1 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(3117): do_action('trashed_post', 104)
+#4 C:\xampp\htdocs\elfakhama\wp-includes\theme.php(3567): WP_Customize_Manager->trash_changeset_post(Object(WP_Post))
+#5 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): _wp_customize_publish_changeset('publish', 'new', Object(WP_Post))
+#6 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\elfakhama\wp-includes\post.php(5303): do_action('transition_post...', 'publish', 'new', Object(WP_Post))
+#9 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4563): wp_transition_post_status('publish', 'new', Object(WP_Post))
+#10 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2975): wp_insert_post(Array, true)
+#11 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2526): WP_Customize_Manager->save_changeset_post(Array)
+#12 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#13 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\elfakhama\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#16 {main}
+  thrown in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php on line 307
+
+2022-07-07T14:34:40+00:00 CRITICAL Uncaught Error: Class "Elementor\Plugin" not found in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php:307
+Stack trace:
+#0 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Bootstrap->save_global_values_trashed_post(105)
+#1 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(3117): do_action('trashed_post', 105)
+#4 C:\xampp\htdocs\elfakhama\wp-includes\theme.php(3567): WP_Customize_Manager->trash_changeset_post(Object(WP_Post))
+#5 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): _wp_customize_publish_changeset('publish', 'new', Object(WP_Post))
+#6 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\elfakhama\wp-includes\post.php(5303): do_action('transition_post...', 'publish', 'new', Object(WP_Post))
+#9 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4563): wp_transition_post_status('publish', 'new', Object(WP_Post))
+#10 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2975): wp_insert_post(Array, true)
+#11 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2526): WP_Customize_Manager->save_changeset_post(Array)
+#12 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#13 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\elfakhama\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#16 {main}
+  thrown in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php on line 307
+
+2022-07-07T14:40:04+00:00 CRITICAL Uncaught Error: Class "Elementor\Plugin" not found in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php:307
+Stack trace:
+#0 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Bootstrap->save_global_values_trashed_post(106)
+#1 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(3117): do_action('trashed_post', 106)
+#4 C:\xampp\htdocs\elfakhama\wp-includes\theme.php(3567): WP_Customize_Manager->trash_changeset_post(Object(WP_Post))
+#5 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): _wp_customize_publish_changeset('publish', 'new', Object(WP_Post))
+#6 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\elfakhama\wp-includes\post.php(5303): do_action('transition_post...', 'publish', 'new', Object(WP_Post))
+#9 C:\xampp\htdocs\elfakhama\wp-includes\post.php(4563): wp_transition_post_status('publish', 'new', Object(WP_Post))
+#10 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2975): wp_insert_post(Array, true)
+#11 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-customize-manager.php(2526): WP_Customize_Manager->save_changeset_post(Array)
+#12 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#13 C:\xampp\htdocs\elfakhama\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\elfakhama\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\elfakhama\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#16 {main}
+  thrown in C:\xampp\htdocs\elfakhama\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Core.php on line 307
+
